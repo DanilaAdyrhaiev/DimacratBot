@@ -1,0 +1,72 @@
+{
+  "main_menu": {
+    "text": "Главное меню",
+    "buttons": [
+      {"text": "Главы", "callback": "chapters"},
+      {"text": "Аниме", "callback": "anime"},
+      {"text": "Ссылки", "callback": "links"}
+    ]
+  },
+  "chapters": {
+    "text": "Chapters",
+    "buttons": [
+      {"text": "<-", "callback": "chapters_prev"},
+      {"text": "->", "callback": "chapters_next"},
+      {"text": "Back", "callback": "main_menu"}
+    ]
+  },
+  "chapter": {
+    "text": "Chapter",
+    "buttons": [
+      {"text": "<-", "callback": "chapter_prev"},
+      {"text": "->", "callback": "chapter_next"},
+      {"text": "Back", "callback": "chapters"},
+      {"text": "Main Menu", "callback": "main_menu"}
+    ]
+  },
+  "anime": {
+    "text": "Anime",
+    "buttons": [
+      {"text": "Back", "callback": "main_menu"}
+    ]
+  },
+  "season": {
+    "text": "Season",
+    "buttons": [
+      {"text": "Back", "callback": "anime"},
+      {"text": "Main Menu", "callback": "main_menu"}
+    ]
+  },
+  "episode": {
+    "text": "Episode",
+    "buttons": [
+      {"text": "Main Menu", "callback": "main_menu"},
+      {"text": "Back", "callback": "season"}
+    ]
+  },
+  "dubs": {
+    "text": "Dubs",
+    "buttons": [
+      {"text": "Back", "callback": "episode"},
+      {"text": "Main Menu", "callback": "main_menu"}
+    ]
+  },
+  "links": {
+    "text": "Links",
+    "buttons": [
+      {"text": "Dimacrate", "url": "https://t.me/dimacrates"},
+      {"text": "Чат Dimacrate", "url": "https://t.me/+1Xy_31gyLpZhNWJi"},
+      {"text": "Написать разрабу", "url": "fahsh2701@gmail.com"},
+      {"text": "Back", "callback": "main_menu"}
+    ]
+  },
+  "donate": {
+    "text": "Donate",
+    "buttons": [
+      {"text": "Telegram Wallet", "url": "https://t.me/wallet"},
+      {"text": "Boosty", "url": "https://boosty.to"},
+      {"text": "DonationAlerts", "url": "https://www.donationalerts.com"},
+      {"text": "Back", "callback": "main_menu"}
+    ]
+  }
+}
